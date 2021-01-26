@@ -2,7 +2,7 @@ ARG ALPINE_VERSION=3.11.5
 
 FROM alpine:${ALPINE_VERSION}
 
-LABEL maintainer="dwallace0723@gmail.com"
+LABEL maintainer="psellars@gmail.com"
 
 RUN apk add --no-cache \
     curl \
